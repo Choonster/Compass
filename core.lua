@@ -11,14 +11,12 @@ frame:SetUserPlaced(true)
 frame:RegisterForDrag("LeftButton")
 
 frame:SetScript("OnDragStart", function(self)
-	print("DragStart")
 	if IsControlKeyDown() then
 		self:StartMoving()
 	end
 end)
 
 frame:SetScript("OnDragStop", function(self)
-	print("DragStop")
 	self:StopMovingOrSizing()
 end)
 
