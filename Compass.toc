@@ -2,6 +2,6 @@
 ## Interface: 60000
 ## Notes: Provides a compass to show which direction north is.
 ## Author: Choonster
-## Version: 1.0
+## Version: 1.1
 
 core.lua

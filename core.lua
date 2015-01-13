@@ -26,5 +26,5 @@ texture:SetTexture("Interface\\AddOns\\Compass\\Compass")
 texture:SetPoint("CENTER")
 
 frame:SetScript("OnUpdate", function(self, elapsed)
-	texture:SetRotation(GetPlayerFacing())
+	texture:SetRotation(-GetPlayerFacing())
 end)
